@@ -6,8 +6,8 @@ angular.
  
       $routeProvider.
       when('/', {
-         templateUrl: 'list/list.template.html',
-           controller:'HeaderController'
+         templateUrl: 'list/list.template.html'
+         
         }).
          when('/list', {
          templateUrl: 'list/list.template.html',
