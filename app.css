@@ -1,0 +1,184 @@
+.header{
+background-color:#00143f;
+color: white;
+height: 160px;
+}
+body{font-size: 20px;
+}   
+h1 {
+font-size: 48px;
+font-weight: bold;
+}
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 3em;
+
+} 
+.btn-default{
+border-radius: 100% ;
+background-color:#cf3a73;
+border: 2px solid #ccc;
+box-shadow: -2px -2px -2px -2px;
+height: 70px;
+width: 70px;
+position: relative;
+}
+
+.headerbtn{ color:#ffc0f4;
+font-size: 60px;
+position: relative;
+line-height: 0.87;
+
+}
+.centered{
+text-align: center;
+}
+.knopka{
+float: right !important;
+background-color: #200d6f;
+color:white;
+height: 40px;
+width: 40px;
+border-radius: 100%;
+padding: inherit;
+font-size: 20px;
+font-weight: 100;
+}
+
+h2{
+padding-top: 40px;
+font-size: 26px;
+
+}
+.login-button {
+float: right !important;
+right: -25px;
+background-color: #200d6f;
+color:white;
+width: 50px;
+height: 50px;
+position: relative;
+border-radius: 100% ;
+outline: none;
+margin-top: -65px;
+
+}
+
+.float-label-control { 
+margin-bottom: 1.5em;
+border: 0px;
+
+}  
+
+.login-button.top{
+margin-top: 50px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.btndel{
+height:50px;
+width: 100%;
+background:  #d45183;
+border: 0px;
+color: white;
+}
+.table > tbody > tr > td {
+padding: 0px; 
+vertical-align: bottom; 
+}
+.btndel{ 
+display: none;
+}
+.divbutton {
+height:50px;
+width: 100%;
+}
+.divbutton:hover .btndel {
+display: block !important;
+
+}
+.divbutton:hover .knopka {
+display: none;
+}
+
+.titleBox {
+background-color:#eae4e4;
+padding: 15px;
+width: 100%;
+
+}
+.form-control{
+height: 50px;
+width: 95%;
+margin-left: 8%;
+}
+.glyphicon-trash{
+font-size: 30px;
+
+color:#ffc0f4;
+position: relative;
+}
+.btn-light{
+position: relative;
+
+}
+.tablecomment{
+padding: 10px;
+}
+.arrow{
+font-size: 22px;
+}
+
+.float-label-control input:focus{ 
+box-shadow: none; 
+-webkit-box-shadow: none;
+border-bottom-width: 2px;
+padding-bottom: 0; 
+font-size: x-large;
+}   
+.float-label-control input{ 
+display: block; 
+width: 100%;  
+padding: 0.1em 0em 1px 0em; 
+border: none; 
+border-radius: 0px; 
+border-bottom: 1px solid #aaa; 
+outline: none;
+height: 70px;
+background: none;
+margin-bottom: 2px;
+}
+.float-label-control input:not(.empty):focus 
+{
+color: #aaaaaa; 
+}
+
+.comentbtn{
+background-color: #200d6f;
+color:white;
+width: 50px;
+height: 50px;
+position: relative;
+border-radius: 100% ;
+outline: none;
+}
+.tablecomment{
+font-size: 14px;
+font-family:  monospace;
+}
+img{
+padding-top: 10px;
+padding-bottom: 10px;
+}

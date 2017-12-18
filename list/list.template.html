@@ -1,0 +1,36 @@
+<div class="header">
+<div class="container">
+
+<h1>Sayer</h1>
+<h3>World's most used time waster</h3>
+
+</div>
+</div>
+<div class="container">
+<table class="table" >
+
+<tr data-ng-repeat="element in elements track by $index" > 
+<td><a href="#!/list/{{$index}}">{{element.text }} </a></td>
+<td>
+<div class="divbutton">
+
+<button  class="knopka">{{element.data.length}}
+</button>
+<button  ng-click="removeRow(element.text)" class="btndel">Delete</button> </div>
+</td>
+</tr>
+</table>
+
+</div>
+<div class="container" >
+<div class="row centered">
+<div class="col-lg-12">
+<a class="btn btn-default" href="#!/detail">
+<span class="headerbtn">&#43;</span></a>
+
+</div>
+</div>
+
+</div>
+
+

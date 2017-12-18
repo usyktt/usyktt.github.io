@@ -1,0 +1,45 @@
+
+<div class="header">
+<div class="container">
+<div class="row">
+<div class="col-xs-3 col-lg-1 col-md-2">
+<a href="#!/list"> <button  class="login-button top"><span class="arrow">&#8592;</span></button></a>
+</div>
+<div class="col-xs-9 col-lg-11 col-md-10">
+<h2>First item with customized long title</h2>
+</div></div></div> </div>
+<div class="wrapper">
+<div class="container"> 
+<table  style="margin-top: 15px" ng-controller="SelectController" >
+<tr data-ng-repeat="item in selected track by $index" > 
+<td><img ng-src="{{$index%2==0 ? 'img/square2.png' : 'img/square.png'}}"></td>
+<td class="tablecomment" width="80%">{{item}}</td>
+<td>    
+<button ng-click="removeComent($index,item)" class="btn btn-light"><i class="glyphicon glyphicon-trash"></i></button>
+</td>
+</tr>
+</table>  
+</div>
+</div>
+<div class="push"></div>
+
+
+
+
+<div class="container titleBox">
+
+<form  role="form" ng-submit="addComment()" ng-controller="SelectController" action="#!/list">
+<div class="col-xs-7">
+<input required class="form-control" ng-model="newData" type="text" placeholder="New comments goes here..." />
+</div>
+
+<div class="col-xs-3">
+<button type="data-ng-submit" class="comentbtn"  aria-hidden="true" ><span class="arrow">&#62;</span></button>
+</div>
+
+</form>
+
+</div>
+
+
+
