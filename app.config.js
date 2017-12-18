@@ -5,10 +5,7 @@ angular.
       $locationProvider.hashPrefix('!');
  
       $routeProvider.
-       when('/', {
-         templateUrl: 'list/list.template.html'
-        }).
-        when('/list', {
+         when('/list', {
          templateUrl: 'list/list.template.html',
            controller:'HeaderController'
         }).
